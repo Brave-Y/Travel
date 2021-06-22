@@ -1,0 +1,237 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.bg{
+	width: 1920px;
+	height: 1600px;
+	position: relative;
+}
+.bg>img{
+	width: 1920px;
+	height: 1600px;
+}
+/*导航栏*/
+.dhl{
+	position: absolute;
+	top: 0;
+}
+.dhl-count{
+	width: 1920px;
+	height: 150px;
+	background:rgba(255,255,255,0.1);
+}
+.dhl-count>img{
+	width: 180px;
+	height: 130px;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+.dhl-text{
+	width: 1165px;
+	height: 70px;
+	margin-left: 560px;
+	margin-top: -110px;
+}
+.dhl1{
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+	line-height: 60px;
+	background-color: #B4B2B2;
+	text-align: center;
+	border-radius: 7px;
+	box-shadow: 0px 10px 20px #666;
+	float: left;
+	margin-left: 33px;
+	color: #fff;
+	cursor: pointer;
+}
+.dhl1:hover{
+	background-color:#8E8B8B;
+}
+.dhl1>a{
+	color: #fff;
+}
+/*内容框*/
+.count{
+	width: 1400px;
+	height: 1300px;
+	background:rgba(255,255,255,0.9);
+	margin:auto;
+	position: absolute;
+	top: 200px;
+	left: 260px;
+}
+/*首页*/
+.count-img{
+	width: 1400px;
+	height: 600px;
+}
+.count-img>img{
+	width: 1400px;
+	height: 600px;
+}
+.count-text{
+	width: 1400px;
+	height: 250px;
+	margin-top: 20px;
+	background-color: #fff;
+	text-indent: 2em;
+	line-height: 3;
+}
+.count-text>img{
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+.count-last{
+	text-align: center;
+	margin-top: 20px;
+}
+.xian1{
+	width: 250px;
+	border-bottom: 1px dashed;
+	margin-top: 20px;
+	margin: auto;
+}
+.count2-img{
+	width: 1400px;
+	height: 300px;
+	margin-top: 20px;
+}
+.count2-img>img{
+	width: 345px;
+	height: 300px;
+}
+/*页脚*/
+.foot{
+	width: 1920px;
+	height: 50px;
+	text-align: center;
+	background-color: #030540;
+	line-height: 50px
+}
+.foot>p{
+	color: #fff;
+}
+/*特色美食*/
+.meishi-span1{
+	display: inline-block;
+	width: 800px;
+	height: 150px;
+	margin: 20px 0 0 300px;
+	text-align: center;
+	line-height: 4;
+}
+.meishi1{
+	width: 1400px;
+	height: 350px;
+	margin-bottom: 20px;
+}
+.meishi1>img{
+	width: 370px;
+	height: 350px;
+	float: left;
+}
+.meishi1>span{
+	display: inline-block;
+	width: 980px;
+	height: 350px;
+	background-color: #fff;
+	margin-left: 20px;
+	line-height: 4;
+	text-indent: 4em;
+	font-size: 17px;
+}
+/*旅游景点*/
+.lvyou{
+	width: 1400px;
+	height: 1900px;
+	margin-top: 20px;
+}
+.jd1{
+	width:800px;
+	height: 650px;
+	margin: auto;
+	position: relative;
+}
+.jd1>img{
+	width:800px;
+	height: 600px;
+}
+.jd1>a{
+	text-align: center;
+	font-size: 23px;
+	color: #fff;
+	background: rgba(255,255,255,0.6);
+	position: absolute;
+	width: 800px;
+	height: 60px;
+	line-height: 60px;
+	bottom: 50px;
+	left: 0;
+	/*background-color: #000;*/
+}
+.jd1>a:hover{
+	background-color: #898686;
+}
+/*历史*/
+.lishi{
+	width: 1400px;
+	height: 1228px;
+}
+.lishi-span{
+	width: 1400px;
+	height: 1300px;
+	line-height: 3.5;
+}
+.lishi-span>img{
+	float: left;
+	width: 450px;
+	height: 400px;
+	margin: 20px 20px 20px 0;
+}
+/*在线留言*/
+.liuyan{
+	width: 800px;
+	height: 1000px;
+	margin:auto;
+}
+.liuyan>p{
+	margin-left: 50px;
+	font-size: 20px;
+}
+.liuyan>p input{
+	width: 450px;
+	height: 35px;
+	margin: 40px 0 0 37px;
+}
+.textarea{
+	width: 450px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 32px;
+}
+/*磁器口古镇*/
+.gz{
+	width: 1400px;
+	height: 550px;
+	margin-top: 20px;
+}
+.gz>img{
+	width: 1400px;
+	height: 550px;
+}
+.gz-text{
+	display: inline-block;
+	width: 1400px;
+	height:637px;
+	margin-top: 20px;
+	line-height: 4;
+	text-indent: 3em;
+}
